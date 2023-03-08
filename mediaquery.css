@@ -1,0 +1,120 @@
+@media screen and (max-width: 955px) {
+  .menu,
+  .auth-container {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .top-bar,
+  .main-nav {
+    justify-content: space-between;
+  }
+  .logo,
+  .contact {
+    right: 0px;
+    margin-left: 30px;
+  }
+  .main-nav {
+    height: 70px;
+  }
+  .logo-svg {
+    width: 180px;
+  }
+  .fa-cart-shopping {
+    color: rgb(228, 225, 225);
+  }
+  .basket p {
+    color: rgb(231, 230, 230);
+    font-size: 14px;
+  }
+  .sign-up {
+    color: black;
+  }
+  .nav-item:hover::before {
+    width: 0%;
+  }
+  .navbar {
+    display: flex;
+  }
+  .sign-in,
+  .sign-up {
+    font-size: 14px;
+  }
+  .sign-up {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  td,
+  th {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .buy-ticket {
+    font-size: 12px;
+    padding: 3px 7px;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  td {
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buy-ticket {
+    font-size: 10px;
+  }
+
+  .burger {
+    height: 20px;
+    width: 27px;
+  }
+  .main-nav {
+    height: 60px;
+  }
+  .logo-svg {
+    width: 160px;
+  }
+  .checkbox {
+    margin-right: 5px;
+    width: 15px;
+  }
+  .email-info p,
+  .phone-info p {
+    font-size: 13px;
+  }
+
+  td,
+  th {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .person img {
+    width: 16px;
+  }
+  td {
+    padding: 0px;
+    padding-left: 5px;
+  }
+  .purchase-ticket-table {
+    padding: 0px 10px;
+  }
+
+  .buy-ticket {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contact {
+    margin-left: 15px;
+  }
+}
